@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import {BsFillMoonStarsFill} from 'react-icons/bs'
+import Mode from './Mode'
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
+import {MdEmail} from 'react-icons/md'
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
            
             <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill className='cursor-pointer text-2xl' />
+                <Mode className='cursor-pointer text-2xl' />
               </li>
               <li><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded ml-8'
               href=''>Resume</a></li>
@@ -34,6 +35,9 @@ export default function Home() {
             </a>
             <a href='https://www.linkedin.com/in/shymala-sidharth-5420a1129/' target='_blank' rel='noreferrer'>
             <AiFillLinkedin/> 
+            </a>
+            <a>
+            <MdEmail/>
             </a>
           </div>
 
