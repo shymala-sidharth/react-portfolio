@@ -4,7 +4,10 @@ import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import {MdEmail} from 'react-icons/md'
 import Image from 'next/image'
 import picture from '/public/—Pngtree—designer thinking line painting_6399125.png'
-import exo from '/public/Exo.jpg'
+import exo from '/public/exo2.png'
+import CSS from '/public/css-3.svg'
+import reactLogo from '/public/react.svg'
+import three from '/public/threejs.svg';
 
 export default function Home() {
   return (
@@ -53,10 +56,21 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1'>Projects</h3>
+            <h3 className='text-3xl py-1 mt-20'>Projects</h3>
             <div>
               <div>
-                <Image src={exo} alt='planets' />
+                <Image className='flex justify-center rounded-full mt-20' src={exo} alt='planets' width={400} height={400} />
+                <h3>Exo Exo: Discover Planets Beyond our Solar System</h3>
+                <p>Exo Exo is a web application that allows users to discover planets beyond our solar system. Users can explore selected planets and view information about the planet. Users can experience these planets in 3D while being immersed in Hans Zimmer's composition.</p>
+                <h4>Tech Stack:</h4>
+                <div className='flex justify-between'>
+                <Image className='mt-10' src={reactLogo} alt='react' width={100} height={100}/>
+                <Image className='mt-10' src={three} alt='three' width={100} height={100}/>
+                <Image className='mt-10' src={CSS} alt='css' width={100} height={100}/>
+                </div>
+                
+                
+
 
               </div>
             </div>
