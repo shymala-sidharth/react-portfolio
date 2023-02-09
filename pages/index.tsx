@@ -49,30 +49,53 @@ export default function Home() {
             <MdEmail/>
             </a>
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-purple-500 rounded-full w-80 h-80 mt-20'>
+          <div className='h-auto max-w-lg mx-auto'>
             <Image src={picture} alt='main' />
           </div>
 
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1 mt-20'>Projects</h3>
-            <div>
-              <div>
-                <Image className='flex justify-center rounded-full mt-20' src={exo} alt='planets' width={400} height={400} />
-                <h3>Exo Exo: Discover Planets Beyond our Solar System</h3>
-                <p>Exo Exo is a web application that allows users to discover planets beyond our solar system. Users can explore selected planets and view information about the planet. Users can experience these planets in 3D while being immersed in Hans Zimmer's composition.</p>
-                <h4>Tech Stack:</h4>
+            <h3 className='text-center text-5xl py-1 mt-20 text-purple-500 font-medium'>Projects</h3>
+            <div className='flex flex-row gap-20'>
+
+              <div className='text-center shadow-xl p-10 rounded-xl my-5'>
+                <Image className='relative mx-auto rounded-full w-80 h-80 mt-20' src={exo} alt='planets' />
+                <h3 className='mt-20 text-3xl font-medium'>Exo Exo: Discover Planets Beyond our Solar System</h3>
+                <p className='text-2xl mt-5'>Exo Exo is a web application that allows users to discover planets beyond our solar system. Users can explore selected planets and view information about the planet. Users can experience these planets in 3D while being immersed in Hans Zimmer's composition.</p>
+                <h4 className='text-purple-500 mt-5 text-center text-xl'>Tech Stack:</h4>
                 <div className='flex justify-between'>
                 <Image className='mt-10' src={reactLogo} alt='react' width={100} height={100}/>
                 <Image className='mt-10' src={three} alt='three' width={100} height={100}/>
                 <Image className='mt-10' src={CSS} alt='css' width={100} height={100}/>
                 </div>
-                
-                
-
-
               </div>
+
+
+              <div className='text-center shadow-xl p-10 rounded-xl my-5'>
+                <Image className='relative mx-auto rounded-full w-80 h-80 mt-20' src={exo} alt='planets' />
+                <h3 className='mt-20 text-3xl font-medium'>Exo Exo: Discover Planets Beyond our Solar System</h3>
+                <p className='text-2xl mt-5'>Exo Exo is a web application that allows users to discover planets beyond our solar system. Users can explore selected planets and view information about the planet. Users can experience these planets in 3D while being immersed in Hans Zimmer's composition.</p>
+                <h4 className='text-purple-500 mt-5 text-center text-xl'>Tech Stack:</h4>
+                <div className='flex justify-between'>
+                <Image className='mt-10' src={reactLogo} alt='react' width={100} height={100}/>
+                <Image className='mt-10' src={three} alt='three' width={100} height={100}/>
+                <Image className='mt-10' src={CSS} alt='css' width={100} height={100}/>
+                </div>
+              </div>
+              
+              <div className='text-center shadow-xl p-10 rounded-xl my-5'>
+                <Image className='relative mx-auto rounded-full w-80 h-80 mt-20' src={exo} alt='planets' />
+                <h3 className='mt-20 text-3xl font-medium'>Exo Exo: Discover Planets Beyond our Solar System</h3>
+                <p className='text-2xl mt-5'>Exo Exo is a web application that allows users to discover planets beyond our solar system. Users can explore selected planets and view information about the planet. Users can experience these planets in 3D while being immersed in Hans Zimmer's composition.</p>
+                <h4 className='text-purple-500 mt-5 text-center text-xl'>Tech Stack:</h4>
+                <div className='flex justify-between'>
+                <Image className='mt-10' src={reactLogo} alt='react' width={100} height={100}/>
+                <Image className='mt-10' src={three} alt='three' width={100} height={100}/>
+                <Image className='mt-10' src={CSS} alt='css' width={100} height={100}/>
+                </div>
+              </div>
+
             </div>
             
           </div>
