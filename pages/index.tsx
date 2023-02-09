@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
-      <main className='bg-white px-10 '>
+      <main className='bg-white px-20 '>
         <section className='min-h-screen'>
          
           <nav className='py-10 mb-12 flex justify-between'>
@@ -59,18 +59,18 @@ export default function Home() {
             <h3 className='text-center text-5xl py-1 mt-20 text-purple-500 font-medium'>Projects</h3>
             <div>
 
-              <div className='text-center shadow-xl p-10 rounded-xl my-5'>
-                <a href="https://exo-exo.up.railway.app/" target='_blank'  rel="noreferrer">
+              <div className='text-center shadow-xl p-20 rounded-xl mx-auto'>
+                <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
                 <Image className='relative mx-auto rounded-full w-80 h-80 mt-20' src={exo} alt='planets' />
                 </a>
                 
-                <h3 className='mt-20 text-3xl font-medium'>Exo Exo: Discover Planets Beyond our Solar System</h3>
-                <p className='text-2xl mt-5'>Exo Exo is a web application that allows users to discover planets beyond our solar system. Users can explore selected planets and view information about the planet. Users can experience these planets in 3D while being immersed in Hans Zimmer's composition.</p>
+                <h3 className='mt-20 text-xl font-medium'>Exo Exo: Discover Planets Beyond our Solar System</h3>
+                <p className='text-lg mt-5'>Exo Exo is a web application that allows users to discover planets beyond our solar system. Users can explore selected planets and view information about the planet. Users can experience these planets in 3D while being immersed in Hans Zimmer's composition.</p>
                 <h4 className='text-purple-500 mt-5 text-center text-xl'>Tech Stack:</h4>
                 <div className='flex justify-between'>
-                <Image className='mt-10' src={reactLogo} alt='react' width={100} height={100}/>
-                <Image className='mt-10' src={three} alt='three' width={100} height={100}/>
-                <Image className='mt-10' src={CSS} alt='css' width={100} height={100}/>
+                <Image className='mt-10' src={reactLogo} alt='react' width={50} height={50}/>
+                <Image className='mt-10' src={three} alt='three' width={50} height={50}/>
+                <Image className='mt-10' src={CSS} alt='css' width={50} height={50}/>
                 </div>
               </div>
 
