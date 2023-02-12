@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
-      <main className='bg-white px-20 '>
+      <main className='bg-white pt-5 pr-32 pl-32 pb-32'>
         <section>
          
           <nav className='py-10 mb-12 flex justify-end'>
@@ -29,15 +29,13 @@ export default function Home() {
                 <Mode />
               </li>
               <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-4 py-2 rounded ml-8' href="https://drive.google.com/file/d/1ZIR0Kk3gqkLgXpVU9QLfq5Ggkrnv0EGE/preview" target='_blank' rel='noreferrer'>Resume</a> 
-              
-              
               </li>
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-purple-600 font-medium underline underline-offset-8'>Shymala Sidharth</h2>
-            <h3 className='text-2xl py-2'>Full Stack Software Developer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800'>Software developer from Auckland, New Zealand. I have a passion for building web applications and I love to learn new technologies.</p>
+            <h2 className='text-5xl text-purple-600 font-medium underline underline-offset-8 font-Amiko'>Shymala Sidharth</h2>
+            <h3 className='text-2xl pt-10 font-Amiko'>Full Stack Software Developer</h3>
+            <p className='text-xl py-5 leading-8 text-gray-800 font-Amiko'>Software developer from Auckland, New Zealand. I have a passion for building web applications and I love to learn new technologies.</p>
           </div>
           <div className='text-5xl flex justify-center gap-20 py-3 text-gray-700'>
             <a href='https://github.com/shymala-sidharth' target='_blank' rel="noreferrer">

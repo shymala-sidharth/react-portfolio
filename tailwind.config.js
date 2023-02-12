@@ -9,7 +9,12 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        play: ['Play', 'sans-serif'],
+        Amiko: ['Amiko', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
