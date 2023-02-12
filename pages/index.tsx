@@ -5,6 +5,7 @@ import {MdEmail} from 'react-icons/md'
 import Image from 'next/image'
 import picture from '/public/—Pngtree—designer thinking line painting_6399125.png'
 import exo from '/public/exo2.png'
+import pomodoro from '/public/pomodoro.png'
 import CSS from '/public/css-3.svg'
 import reactLogo from '/public/react.svg'
 import three from '/public/threejs.svg';
@@ -19,7 +20,7 @@ export default function Home() {
         
       </Head>
       <main className='bg-white px-20 '>
-        <section className='min-h-screen'>
+        <section>
          
           <nav className='py-10 mb-12 flex justify-between'>
            
@@ -34,7 +35,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-purple-600 font-medium'>Shymala Sidharth</h2>
+            <h2 className='text-5xl py-2 text-purple-600 font-medium underline underline-offset-8'>Shymala Sidharth</h2>
             <h3 className='text-2xl py-2'>Full Stack Software Developer</h3>
             <p className='text-md py-5 leading-8 text-gray-800'>Software developer from Auckland, New Zealand. I have a passion for building web applications and I love to learn new technologies.</p>
           </div>
@@ -56,47 +57,48 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className='text-center text-5xl py-1 mt-20 text-purple-500 font-medium'>Projects</h3>
+            <h3 className='text-center text-5xl py-1 mt-20 text-purple-500 font-medium underline underline-offset-8'>Projects</h3>
             <div>
 
-              <div className='text-center shadow-xl p-20 rounded-xl mx-auto'>
+          <div className='flex flex-row gap-10'>
+            
+              <div className='text-center shadow-xl p-20 rounded-xl'>
                 <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
-                <Image className='relative mx-auto rounded-full w-80 h-80 mt-20' src={exo} alt='planets' />
+                <Image className='relative mx-auto rounded-full w-60 h-60 mt-2.5' src={exo} alt='planets' />
                 </a>
-                
-                <h3 className='mt-20 text-xl font-medium'>Exo Exo: Discover Planets Beyond our Solar System</h3>
-                <p className='text-lg mt-5'>Exo Exo is a web application that allows users to discover planets beyond our solar system. Users can explore selected planets and view information about the planet. Users can experience these planets in 3D while being immersed in Hans Zimmer's composition.</p>
-                <h4 className='text-purple-500 mt-5 text-center text-xl'>Tech Stack:</h4>
-                <div className='flex justify-between'>
-                <Image className='mt-10' src={reactLogo} alt='react' width={50} height={50}/>
-                <Image className='mt-10' src={three} alt='three' width={50} height={50}/>
-                <Image className='mt-10' src={CSS} alt='css' width={50} height={50}/>
+                <h3 className='mt-2.5 text-xl font-medium'>Exo Exo: Discover Planets Beyond our Solar System</h3>
+                <p className='text-xl mt-5'>Exo Exo is a web application that allows users to discover planets beyond our solar system.</p>
+                <div className='flex justify-center mt-2.5 mb-2.5'>
+                  <button className='bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl px-10 py-2 rounded ml-8'>View</button>
                 </div>
               </div>
 
-
-              <div className='text-center shadow-xl p-10 rounded-xl my-5'>
-                <Image className='relative mx-auto rounded-full w-80 h-80 mt-20' src={exo} alt='planets' />
-                <h3 className='mt-20 text-3xl font-medium'>Exo Exo: Discover Planets Beyond our Solar System</h3>
-                <p className='text-2xl mt-5'>Exo Exo is a web application that allows users to discover planets beyond our solar system. Users can explore selected planets and view information about the planet. Users can experience these planets in 3D while being immersed in Hans Zimmer's composition.</p>
-                <h4 className='text-purple-500 mt-5 text-center text-xl'>Tech Stack:</h4>
-                <div className='flex justify-between'>
-                <Image className='mt-10' src={reactLogo} alt='react' width={100} height={100}/>
-                <Image className='mt-10' src={three} alt='three' width={100} height={100}/>
-                <Image className='mt-10' src={CSS} alt='css' width={100} height={100}/>
+              <div className='text-center shadow-xl p-20 rounded-xl'>
+                <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
+                <Image className='relative mx-auto rounded-full w-60 h-60 mt-2.5' src={pomodoro} alt='pom' />
+                </a>
+                <h3 className='mt-2.5 text-xl font-medium'>Pomodoro Productivity App</h3>
+                <p className='text-xl mt-5'>Users can set timer intervals to focus and increase productivity. More functionality coming soon!</p>
+                <div className='flex justify-center mt-2.5 mb-2.5'>
+                  <button className='bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl px-10 py-2 rounded ml-8'>View</button>
                 </div>
               </div>
+
+              <div className='text-center shadow-xl p-20 rounded-xl'>
+                <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
+                <Image className='relative mx-auto rounded-full w-60 h-60 mt-2.5' src={pomodoro} alt='pom' />
+                </a>
+                <h3 className='mt-2.5 text-xl font-medium'>Pomodoro Productivity App</h3>
+                <p className='text-xl mt-5'>Users can set timer intervals to focus and increase productivity. More functionality coming soon!</p>
+                <div className='flex justify-center mt-2.5 mb-2.5'>
+                  <button className='bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl px-10 py-2 rounded ml-8'>View</button>
+                </div>
+              </div>
+
               
-              <div className='text-center shadow-xl p-10 rounded-xl my-5'>
-                <Image className='relative mx-auto rounded-full w-80 h-80 mt-20' src={exo} alt='planets' />
-                <h3 className='mt-20 text-3xl font-medium'>Exo Exo: Discover Planets Beyond our Solar System</h3>
-                <p className='text-2xl mt-5'>Exo Exo is a web application that allows users to discover planets beyond our solar system. Users can explore selected planets and view information about the planet. Users can experience these planets in 3D while being immersed in Hans Zimmer's composition.</p>
-                <h4 className='text-purple-500 mt-5 text-center text-xl'>Tech Stack:</h4>
-                <div className='flex justify-between'>
-                <Image className='mt-10' src={reactLogo} alt='react' width={100} height={100}/>
-                <Image className='mt-10' src={three} alt='three' width={100} height={100}/>
-                <Image className='mt-10' src={CSS} alt='css' width={100} height={100}/>
-                </div>
+             
+
+
               </div>
 
             </div>
