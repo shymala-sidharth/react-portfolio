@@ -6,9 +6,8 @@ import Image from 'next/image'
 import picture from '/public/—Pngtree—designer thinking line painting_6399125.png'
 import exo from '/public/exo2.png'
 import pomodoro from '/public/pomodoro.png'
-import CSS from '/public/css-3.svg'
-import reactLogo from '/public/react.svg'
-import three from '/public/threejs.svg';
+import logo from '/public/Logo.png'
+
 
 export default function Home() {
   return (
@@ -19,11 +18,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
-      <main className='bg-white pt-5 pr-32 pl-32 pb-32'>
+      <main className='bg-white pr-32 pl-32 pb-32'>
         <section>
          
           <nav className='py-10 mb-12 flex justify-end'>
-           
+
+            
             <ul className='flex items-center gap-5'>
               <li>
                 <Mode />
@@ -32,7 +32,7 @@ export default function Home() {
               </li>
               <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-4 py-2 rounded ml-8' href="https://drive.google.com/file/d/1ZIR0Kk3gqkLgXpVU9QLfq5Ggkrnv0EGE/preview" target='_blank' rel='noreferrer'>Projects</a> 
               </li>
-              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-4 py-2 rounded ml-8' href="https://drive.google.com/file/d/1ZIR0Kk3gqkLgXpVU9QLfq5Ggkrnv0EGE/preview" target='_blank' rel='noreferrer'>About</a> 
+              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-6 py-2 rounded ml-8' href="https://drive.google.com/file/d/1ZIR0Kk3gqkLgXpVU9QLfq5Ggkrnv0EGE/preview" target='_blank' rel='noreferrer'>About</a> 
               </li>
             </ul>
           </nav>
