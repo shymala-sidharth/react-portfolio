@@ -24,16 +24,20 @@ export default function Home() {
          
           <nav className='py-10 mb-12 flex justify-end'>
            
-            <ul className='flex items-center'>
+            <ul className='flex items-center gap-5'>
               <li>
                 <Mode />
               </li>
               <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-4 py-2 rounded ml-8' href="https://drive.google.com/file/d/1ZIR0Kk3gqkLgXpVU9QLfq5Ggkrnv0EGE/preview" target='_blank' rel='noreferrer'>Resume</a> 
               </li>
+              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-4 py-2 rounded ml-8' href="https://drive.google.com/file/d/1ZIR0Kk3gqkLgXpVU9QLfq5Ggkrnv0EGE/preview" target='_blank' rel='noreferrer'>Projects</a> 
+              </li>
+              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-4 py-2 rounded ml-8' href="https://drive.google.com/file/d/1ZIR0Kk3gqkLgXpVU9QLfq5Ggkrnv0EGE/preview" target='_blank' rel='noreferrer'>About</a> 
+              </li>
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='text-5xl text-purple-600 font-medium underline underline-offset-8 font-Amiko'>Shymala Sidharth</h2>
+            <h2 className='text-7xl text-purple-600 font-medium font-Amiko'>Shymala Sidharth</h2>
             <h3 className='text-2xl pt-10 font-Amiko'>Full Stack Software Developer</h3>
             <p className='text-xl py-5 leading-8 text-gray-800 font-Amiko'>Software developer from Auckland, New Zealand. I have a passion for building web applications and I love to learn new technologies.</p>
           </div>
@@ -55,7 +59,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className='text-center text-5xl py-1 mt-20 text-purple-500 font-medium underline underline-offset-8'>Projects</h3>
+            <h3 className='text-center text-7xl py-1 mt-20 text-purple-500 font-medium font-Amiko'>Projects</h3>
             <div>
 
           <div className='flex flex-row gap-10'>
