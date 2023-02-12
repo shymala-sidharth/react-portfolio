@@ -22,7 +22,7 @@ export default function Home() {
       <main className='bg-white px-20 '>
         <section>
          
-          <nav className='py-10 mb-12 flex justify-between'>
+          <nav className='py-10 mb-12 flex justify-end'>
            
             <ul className='flex items-center'>
               <li>
