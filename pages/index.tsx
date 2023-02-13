@@ -19,29 +19,34 @@ export default function Home() {
         
       </Head>
       <main className='bg-white'>
-        <section className='mb-24 sm:mb-16'>
+        <section>
          
-          <nav className='py-10 mb-12 flex justify-end'>
+          <nav className='py-5 mb-12 flex justify-end'>
 
             
-            <ul className='container px-5 py-4 mx-auto flex flex-wrap justify-end '>
+            <ul className='container px-5  mx-auto flex flex-wrap justify-end '>
               <li>
                 <Mode />
               </li>
-              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-4 py-2 rounded ml-8' href="https://drive.google.com/file/d/1ZIR0Kk3gqkLgXpVU9QLfq5Ggkrnv0EGE/preview" target='_blank' rel='noreferrer'>Resume</a> 
+              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-4 py-1 rounded ml-8' href="https://drive.google.com/file/d/1ZIR0Kk3gqkLgXpVU9QLfq5Ggkrnv0EGE/preview" target='_blank' rel='noreferrer'>Resume</a> 
               </li>
-              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-4 py-2 rounded ml-8' href='#Projects'>Projects</a> 
+              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-4 py-1 rounded ml-8' href='#Projects'>Projects</a> 
               </li>
-              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-6 py-2 rounded ml-8' href='#About'>About</a> 
+              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-6 py-1 rounded ml-8' href='#About'>About</a> 
               </li>
             </ul>
           </nav>
-          <div className='text-center p-10'>
-            <h2 className='container px-5 mx-auto flex flex-wrap justify-center text-7xl text-purple-600 font-medium font-Amiko'>Shymala Sidharth</h2>
+          <div className='text-center'>
+            <h2 className='container mx-auto flex flex-wrap justify-center text-6xl text-purple-700 font-medium font-Amiko'>S H Y M A L A</h2>
+            
             <h3 className='text-2xl pt-10 font-Amiko'>Full Stack Software Developer</h3>
-            <p className='text-xl py-5 leading-8 text-gray-800 font-Amiko'>Software developer from Auckland, New Zealand. I have a passion for building web applications and I love to learn new technologies.</p>
+            <p className='text-xl leading-loose px-96 py-10 text-gray-800 font-Amiko'>I'm a software developer with a passion for the environment and a love for data. 
+            <br></br>
+            
+            My unique background in Environmental Science and computer programming allows me to bring a fresh perspective to the tech world. I believe that technology has the power to make a real impact on our planet, and I strive to use my skills to create solutions that make a difference. When I'm not busy trying out new project ideas, you can find me hiking in nature, volunteering for environmental causes, or exploring new ways to live sustainably. 
+            </p>
           </div>
-          <div className='text-5xl flex justify-center gap-20 py-3 text-gray-700'>
+          <div className='text-5xl flex justify-center gap-20 text-gray-700'>
             <a href='https://github.com/shymala-sidharth' target='_blank' rel="noreferrer">
             <AiFillGithub/>
             </a>
@@ -52,16 +57,16 @@ export default function Home() {
             <MdEmail/>
             </a>
           </div>
-          <div className='h-auto max-w-lg mx-auto'>
+          <div className='container mx-auto flex flex-wrap justify-center h-auto max-w-lg'>
             <Image src={picture} alt='main' />
           </div>
 
         </section>
 
        
-        <section className='mb-32 text-purple-500 text-center lg:text-left'>
+        <section>
           
-            <h3 className='text-center text-7xl font-medium font-Amiko' id='Projects'>Projects</h3>
+            <h3 className='text-center text-7xl font-medium font-Amiko text-purple-700' id='Projects'>P R O J E C T S</h3>
             
            
          <div className='container px-5 py-24 mx-auto flex flex-wrap justify-center gap-10'>
@@ -117,20 +122,30 @@ export default function Home() {
              </div>
 
              </div>
-
-            
-
-              
-
-               
         </section>
        
-        {/* <section>
-        <div>
-            <h3 className='text-center text-7xl py-1 mt-20 text-purple-500 font-medium font-Amiko' id='About'>About</h3>
-            </div>
+        <section>
+        <div className='text-center'>
+            <h2 className='container mx-auto flex flex-wrap justify-center text-6xl text-purple-700 font-medium font-Amiko'>A B O U T</h2>
+            
+            <p className='text-xl leading-loose px-96 py-10 text-gray-800 font-Amiko'>
+              With a MSc in Environmental Science, I have always been drawn to the tech world. After working in the Government Sector for a few years, I decided to pursue my passion for technology and enrolled in the Full Stack Web Development Bootcamp at Dev Academy. I am now a software developer with a passion for the environment and a love for data.
+            </p>
 
-        </section> */}
+            <h3 className='text-2xl pt-10 font-Amiko'>Tech Stack I use:</h3>
+
+            <ul>
+              <li>JavaScript</li>
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              
+            </ul>
+          </div>
+
+
+
+        </section>
       </main>
 
       </div>
