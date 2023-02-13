@@ -16,7 +16,7 @@ export default function Mode() {
     <DarkModeSwitch
       checked={isDarkMode}
       onChange={toogleDarkMode}
-      size={60}
+      size={35}
     />
   );
 }

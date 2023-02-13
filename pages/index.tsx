@@ -37,7 +37,7 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='container px-5 py-24 mx-auto flex flex-wrap justify-center text-7xl text-purple-600 font-medium font-Amiko'>Shymala Sidharth</h2>
+            <h2 className='container px-5 mx-auto flex flex-wrap justify-center text-7xl text-purple-600 font-medium font-Amiko'>Shymala Sidharth</h2>
             <h3 className='text-2xl pt-10 font-Amiko'>Full Stack Software Developer</h3>
             <p className='text-xl py-5 leading-8 text-gray-800 font-Amiko'>Software developer from Auckland, New Zealand. I have a passion for building web applications and I love to learn new technologies.</p>
           </div>
@@ -88,11 +88,11 @@ export default function Home() {
                <div className='bg-white flex-1 p-7 rounded-lg border shadow-2xl my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200'>
             <div className='relative overflow-hidden bg-no-repeat bg-cover'>
               <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
-              <Image className='rounded-xl' width={400} height={215} src={exo} alt='planets' />
+              <Image className='rounded-xl' width={400} height={215} src={pomodoro} alt='planets' />
               </a>
               <div className='p-6'>
-              <h3 className='text-gray-900 text-xl font-Amiko mb-2'>Exo Exo: Discover Planets Beyond our Solar System</h3>
-              <p className='text-gray-700 text-base mb-4 font-Amiko'>Exo Exo is a web application that allows users to discover planets beyond our solar system.</p>
+              <h3 className='text-gray-900 text-xl font-Amiko mb-2'>Pomodoro Inspired App</h3>
+              <p className='text-gray-700 text-base mb-4 font-Amiko'>Users can set time intervals to increase their productivity. More Functionality coming soon!</p>
               </div>
               <div className='flex justify-center pr-10'>
                 <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>View</button>
