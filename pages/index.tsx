@@ -4,7 +4,7 @@ import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import {MdEmail} from 'react-icons/md'
 import Image from 'next/image'
 import picture from '/public/—Pngtree—designer thinking line painting_6399125.png'
-import exo from '/public/exo2.png'
+import exo from '/public/exo.png'
 import pomodoro from '/public/pomodoro.png'
 import logo from '/public/Logo.png'
 
@@ -18,26 +18,26 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
-      <main className='bg-white pr-32 pl-32 pb-32'>
-        <section>
+      <main className='bg-white mx-10 my-20 sm:my-10 min-h-screen md:px-28 lg:px-48 xl:px-60 2xl:px-7'>
+        <section className='mb-24 sm:mb-16'>
          
           <nav className='py-10 mb-12 flex justify-end'>
 
             
-            <ul className='flex items-center gap-5'>
+            <ul className='container px-5 py-4 mx-auto flex flex-wrap justify-end '>
               <li>
                 <Mode />
               </li>
               <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-4 py-2 rounded ml-8' href="https://drive.google.com/file/d/1ZIR0Kk3gqkLgXpVU9QLfq5Ggkrnv0EGE/preview" target='_blank' rel='noreferrer'>Resume</a> 
               </li>
-              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-4 py-2 rounded ml-8' href="https://drive.google.com/file/d/1ZIR0Kk3gqkLgXpVU9QLfq5Ggkrnv0EGE/preview" target='_blank' rel='noreferrer'>Projects</a> 
+              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-4 py-2 rounded ml-8' href='#Projects'>Projects</a> 
               </li>
-              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-6 py-2 rounded ml-8' href="https://drive.google.com/file/d/1ZIR0Kk3gqkLgXpVU9QLfq5Ggkrnv0EGE/preview" target='_blank' rel='noreferrer'>About</a> 
+              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-6 py-2 rounded ml-8' href='#About'>About</a> 
               </li>
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='text-7xl text-purple-600 font-medium font-Amiko'>Shymala Sidharth</h2>
+            <h2 className='container px-5 py-24 mx-auto flex flex-wrap justify-center text-7xl text-purple-600 font-medium font-Amiko'>Shymala Sidharth</h2>
             <h3 className='text-2xl pt-10 font-Amiko'>Full Stack Software Developer</h3>
             <p className='text-xl py-5 leading-8 text-gray-800 font-Amiko'>Software developer from Auckland, New Zealand. I have a passion for building web applications and I love to learn new technologies.</p>
           </div>
@@ -57,56 +57,80 @@ export default function Home() {
           </div>
 
         </section>
-        <section>
-          <div>
-            <h3 className='text-center text-7xl py-1 mt-20 text-purple-500 font-medium font-Amiko'>Projects</h3>
-            <div>
 
-          <div className='flex flex-row gap-10'>
+       
+        <section className='mb-32 text-purple-500 text-center lg:text-left'>
+          
+            <h3 className='text-center text-7xl font-medium font-Amiko' id='Projects'>Projects</h3>
             
-              <div className='text-center shadow-xl p-20 rounded-xl'>
-                <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
-                <Image className='relative mx-auto rounded-full w-60 h-60 mt-2.5' src={exo} alt='planets' />
-                </a>
-                <h3 className='mt-2.5 text-xl font-medium'>Exo Exo: Discover Planets Beyond our Solar System</h3>
-                <p className='text-xl mt-5'>Exo Exo is a web application that allows users to discover planets beyond our solar system.</p>
-                <div className='flex justify-center mt-2.5 mb-2.5'>
-                  <button className='bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl px-10 py-2 rounded ml-8'>View</button>
-                </div>
-              </div>
+           
+         <div className='container px-5 py-24 mx-auto flex flex-wrap justify-center gap-10'>
 
-              <div className='text-center shadow-xl p-20 rounded-xl'>
-                <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
-                <Image className='relative mx-auto rounded-full w-60 h-60 mt-2.5' src={pomodoro} alt='pom' />
-                </a>
-                <h3 className='mt-2.5 text-xl font-medium'>Pomodoro Productivity App</h3>
-                <p className='text-xl mt-5'>Users can set timer intervals to focus and increase productivity. More functionality coming soon!</p>
-                <div className='flex justify-center mt-2.5 mb-2.5'>
-                  <button className='bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl px-10 py-2 rounded ml-8'>View</button>
-                </div>
-              </div>
 
-              <div className='text-center shadow-xl p-20 rounded-xl'>
+          <div className='bg-white p-7 rounded-lg border shadow-2xl my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200'>
+              <div className='relative overflow-hidden bg-no-repeat bg-cover'>
                 <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
-                <Image className='relative mx-auto rounded-full w-60 h-60 mt-2.5' src={pomodoro} alt='pom' />
+                <Image className='rounded-xl' width={400} height={215} src={exo} alt='planets' />
                 </a>
-                <h3 className='mt-2.5 text-xl font-medium'>Pomodoro Productivity App</h3>
-                <p className='text-xl mt-5'>Users can set timer intervals to focus and increase productivity. More functionality coming soon!</p>
-                <div className='flex justify-center mt-2.5 mb-2.5'>
-                  <button className='bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl px-10 py-2 rounded ml-8'>View</button>
+                <div className='p-6'>
+                <h3 className='text-gray-900 text-xl font-Amiko mb-2'>Exo Exo: Discover Planets Beyond our Solar System</h3>
+                <p className='text-gray-700 text-base mb-4 font-Amiko'>Exo Exo is a web application that allows users to discover planets beyond our solar system.</p>
+                </div>
+                <div className='flex justify-center pr-10'>
+                  <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>View</button>
                 </div>
               </div>
+               </div>
+               
+
+
+
+               <div className='bg-white flex-1 p-7 rounded-lg border shadow-2xl my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200'>
+            <div className='relative overflow-hidden bg-no-repeat bg-cover'>
+              <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
+              <Image className='rounded-xl' width={400} height={215} src={exo} alt='planets' />
+              </a>
+              <div className='p-6'>
+              <h3 className='text-gray-900 text-xl font-Amiko mb-2'>Exo Exo: Discover Planets Beyond our Solar System</h3>
+              <p className='text-gray-700 text-base mb-4 font-Amiko'>Exo Exo is a web application that allows users to discover planets beyond our solar system.</p>
+              </div>
+              <div className='flex justify-center pr-10'>
+                <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>View</button>
+              </div>
+            </div>
+             </div>
+
+
+             <div className='bg-white flex-1 p-7 rounded-lg border shadow-2xl my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200'>
+            <div className='relative overflow-hidden bg-no-repeat bg-cover'>
+              <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
+              <Image className='rounded-xl' width={400} height={215} src={exo} alt='planets' />
+              </a>
+              <div className='p-6'>
+              <h3 className='text-gray-900 text-xl font-Amiko mb-2'>Exo Exo: Discover Planets Beyond our Solar System</h3>
+              <p className='text-gray-700 text-base mb-4 font-Amiko'>Exo Exo is a web application that allows users to discover planets beyond our solar system.</p>
+              </div>
+              <div className='flex justify-center pr-10'>
+                <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>View</button>
+              </div>
+            </div>
+             </div>
+
+             </div>
+
+            
 
               
-             
 
-
-              </div>
-
-            </div>
-            
-          </div>
+               
         </section>
+       
+        {/* <section>
+        <div>
+            <h3 className='text-center text-7xl py-1 mt-20 text-purple-500 font-medium font-Amiko' id='About'>About</h3>
+            </div>
+
+        </section> */}
       </main>
 
       </div>

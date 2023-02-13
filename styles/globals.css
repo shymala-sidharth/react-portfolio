@@ -99,7 +99,6 @@ a {
   text-decoration: none;
 }
 
-@font-face{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+html {
+  scroll-behavior: smooth;
 }
-
