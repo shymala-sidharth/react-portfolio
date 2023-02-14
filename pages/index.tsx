@@ -137,7 +137,7 @@ export default function Home() {
                 </ul>
               </div>
               <div className='flex justify-center pr-10'>
-                <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>View</button>
+                <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>Live</button>
                 <a href="https://github.com/shymala-sidharth/pomodoro-app" target='_blank' rel="noreferrer">
                   <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>GitHub</button>
                   </a>
@@ -166,11 +166,16 @@ export default function Home() {
                 </ul>
               </div>
               <div className='flex justify-center pr-10'>
-              <a href="https://github.com/shymala-sidharth/react-portfolio" target='_blank' rel="noreferrer">
-                <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>View</button>
+              <a href="https://shymala-sidharth-portfolio.vercel.app/" target='_blank' rel="noreferrer">
+                <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>Live</button>
                 
                 </a>
+
+
+                <a href="https://github.com/shymala-sidharth/react-portfolio" target='_blank' rel="noreferrer">
                 <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>GitHub</button>
+                </a>
+
               </div>
             </div>
              </div>
