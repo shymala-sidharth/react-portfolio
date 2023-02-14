@@ -47,9 +47,9 @@ export default function Home() {
           </nav>
 
           <div className = 'text-center'>
-          <h2 className='text-5xl text-purple-700 font-semibold font-Amiko md:text-6xl sm:text-5xl dark:text-pink-500'>S H Y M A L A</h2>
-          <h3 className='text-2xl py-5 text-purple-600 font-Amiko md:text-2xl dark:text-pink-300'>Full Stack Software Developer</h3>
-          <p className='text-lg p-5 text-gray-700 leading-loose font-Amiko md:text-lg md:leading-loose max-w-5xl mx-auto dark:text-pink-200'>I am a software developer with a passion for the environment and a love for data. My unique background in Environmental Science and computer programming allows me to bring a fresh perspective to the tech world. I believe that technology has the power to make a real impact on our planet, and I strive to use my skills to create solutions that make a difference. When I am not busy trying out new project ideas, you can find me hiking in nature, volunteering for environmental causes, or exploring new ways to live sustainably. 
+          <h2 className='text-center text-5xl text-purple-700 font-semibold font-Amiko md:text-5xl sm:text-5xl dark:text-pink-500'>S H Y M A L A</h2>
+          <h3 className='text-center text-xl py-2 text-purple-600 font-Amiko md:text-xl dark:text-pink-300'>Full Stack Software Developer</h3>
+          <p className='text-lg text-gray-700 leading-loose font-Amiko md:text-lg md:leading-loose max-w-5xl mx-auto dark:text-pink-200'>I am a software developer with a passion for the environment and a love for data. My unique background in Environmental Science and computer programming allows me to bring a fresh perspective to the tech world. I believe that technology has the power to make a real impact on our planet, and I strive to use my skills to create solutions that make a difference. 
             </p>
 
 
@@ -60,7 +60,7 @@ export default function Home() {
 
 
 
-          <div className='text-5xl flex justify-center gap-20 text-purple-700 dark:text-pink-400'>
+          <div className='py-2 text-5xl flex justify-center gap-20 text-purple-700 dark:text-pink-400'>
             <a href='https://github.com/shymala-sidharth' target='_blank' rel="noreferrer">
             <AiFillGithub/>
             </a>
@@ -83,7 +83,7 @@ export default function Home() {
             <h3 className='text-center text-5xl text-purple-700 font-semibold font-Amiko md:text-6xl sm:text-5xl dark:text-pink-500' id='Projects'>P R O J E C T S</h3>
             
            
-         <div className='container px-5 py-24 mx-auto flex flex-wrap justify-center gap-20'>
+         <div className='container px-5 py-5 mx-auto flex flex-wrap justify-center gap-10'>
 
 
           <div className='bg-purple-100 p-7 rounded-xl border shadow-2xl shadow-purple-700 my-6 max-w-sm hover:shadow-xl transition ease-in-out hover:duration-200 hover:scale-105 duration-200 dark:shadow-pink-600'>
