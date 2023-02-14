@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import React from 'react'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import {MdEmail} from 'react-icons/md'
