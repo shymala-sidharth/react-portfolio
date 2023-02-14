@@ -37,7 +37,7 @@ export default function Home() {
                 className='text-3xl text-purple-700 dark:text-pink-400 cursor-pointer'
                 size={30} />
               </li>
-              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-6 py-1 rounded ml-8' href="https://drive.google.com/file/d/1ZIR0Kk3gqkLgXpVU9QLfq5Ggkrnv0EGE/view?usp=sharing" target='_blank' rel='noreferrer'>RESUME</a> 
+              <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-6 py-1 rounded ml-8' href="https://drive.google.com/file/d/1Me4wKLFmgBP-WPWB5Uu9y_HWg9FE-xFZ/view?usp=sharing" target='_blank' rel='noreferrer'>RESUME</a> 
               </li>
               <li><a className='bg-gradient-to-r from-purple-600 to-pink-500 text-white px-6 py-1 rounded ml-8' href='#Projects'>PROJECTS</a> 
               </li>
