@@ -4,10 +4,11 @@ import {AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 import {MdEmail} from 'react-icons/md'
 import Image from 'next/image'
 import picture from '/public/—Pngtree—designer thinking line painting_6399125.png'
-import exo from '/public/exo.png'
+import exo from '/public/exo9.png'
 import pomodoro from '/public/pomodoro.png'
 import logo from '/public/Logo.png'
 import { useState } from 'react'
+import portfolio from '/public/portfolio5.png'
 
 
 export default function Home() {
@@ -78,7 +79,7 @@ export default function Home() {
        
         <section>
           
-            <h3 className='text-center text-6xl font-semibold font-Amiko text-purple-700 dark:text-pink-500' id='Projects'>P R O J E C T S</h3>
+            <h3 className='text-center text-5xl text-purple-700 font-semibold font-Amiko md:text-6xl sm:text-5xl dark:text-pink-500' id='Projects'>P R O J E C T S</h3>
             
            
          <div className='container px-5 py-24 mx-auto flex flex-wrap justify-center gap-20'>
@@ -86,15 +87,28 @@ export default function Home() {
 
           <div className='bg-purple-100 p-7 rounded-xl border shadow-2xl shadow-purple-700 my-6 max-w-sm hover:shadow-xl transition ease-in-out hover:duration-200 hover:scale-105 duration-200 dark:shadow-pink-600'>
               <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-                <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
+                
                 <Image className='rounded-xl' width={400} height={215} src={exo} alt='planets' />
-                </a>
+                
                 <div className='p-6'>
-                <h3 className='text-gray-900 text-xl font-Amiko mb-2'>Exo Exo: Discover Planets Beyond our Solar System</h3>
-                <p className='text-gray-700 text-base mb-4 font-Amiko'>Exo Exo is a web application that allows users to discover planets beyond our solar system.</p>
+                <h3 className='text-center text-gray-900 text-xl font-Amiko mb-2'>Exo Exo: Discover Planets Beyond our Solar System</h3>
+                <p className='text-center text-gray-700 text-base mb-4 font-Amiko'>Exo Exo is a web application that allows users to discover planets beyond our solar system.</p>
+                <ul className='text-center text-gray-900 font-extrabold text-base mb-4 font-Amiko'>
+                  <li> - React.js</li>
+                  
+                  <li> - Three.js</li>
+
+                  <li> - React Three Fiber</li>
+                </ul>
                 </div>
                 <div className='flex justify-center pr-10'>
-                  <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>View</button>
+                <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
+                  <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>Live</button>
+                  </a>
+                  
+                  <a href="https://github.com/shymala-sidharth/React-Three-Fiber-3D-EXOPLANETS" target='_blank' rel="noreferrer">
+                  <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>GitHub</button>
+                  </a>
                 </div>
               </div>
                </div>
@@ -108,11 +122,24 @@ export default function Home() {
               <Image className='rounded-xl' width={400} height={215} src={pomodoro} alt='planets' />
               </a>
               <div className='p-6'>
-              <h3 className='text-gray-900 text-xl font-Amiko mb-2'>Pomodoro Inspired App</h3>
-              <p className='text-gray-700 text-base mb-4 font-Amiko'>Users can set time intervals to increase their productivity. More Functionality coming soon!</p>
+              <h3 className='text-center text-gray-900 text-xl font-Amiko mb-2'>Pomodoro Inspired App</h3>
+              <p className='text-center text-gray-700 text-base mb-4 font-Amiko'>Users can set time intervals to increase their productivity. More Functionality coming soon!</p>
+              <ul className='text-center text-gray-900 font-extrabold text-base mb-4 font-Amiko'>
+                  <li> - React.js</li>
+
+                  <li> - JavaScript</li>
+
+                  
+                  <li> - Next.js</li>
+
+                  <li> - TailwindCSS</li>
+                </ul>
               </div>
               <div className='flex justify-center pr-10'>
-                <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>View</button>
+                <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>View</button>
+                <a href="https://github.com/shymala-sidharth/pomodoro-app" target='_blank' rel="noreferrer">
+                  <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>GitHub</button>
+                  </a>
               </div>
             </div>
              </div>
@@ -120,15 +147,29 @@ export default function Home() {
 
              <div className='bg-purple-100 p-7 rounded-xl border shadow-2xl shadow-purple-700 my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200  dark:shadow-pink-600'>
             <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-              <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
-              <Image className='rounded-xl' width={400} height={215} src={exo} alt='planets' />
-              </a>
+              
+              <Image className='rounded-xl shadow-xl' width={400} height={215} src={portfolio} alt='portfolio'  />
+              
               <div className='p-6'>
-              <h3 className='text-gray-900 text-xl font-Amiko mb-2'>Exo Exo: Discover Planets Beyond our Solar System</h3>
-              <p className='text-gray-700 text-base mb-4 font-Amiko'>Exo Exo is a web application that allows users to discover planets beyond our solar system.</p>
+              <h3 className='text-center text-gray-900 text-xl font-Amiko mb-2'>Personal Portfolio</h3>
+              <p className='text-center text-gray-700 text-base mb-4 font-Amiko'>Made to showcase my work. Compatible with dark mode.</p>
+              <ul className='text-center text-gray-900 font-extrabold text-base mb-4 font-Amiko'>
+                  <li> - React.js</li>
+
+                  <li> - JavaScript</li>
+
+                  
+                  <li> - Next.js</li>
+
+                  <li> - TailwindCSS</li>
+                </ul>
               </div>
               <div className='flex justify-center pr-10'>
-                <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>View</button>
+              <a href="https://github.com/shymala-sidharth/react-portfolio" target='_blank' rel="noreferrer">
+                <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>View</button>
+                
+                </a>
+                <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>GitHub</button>
               </div>
             </div>
              </div>
