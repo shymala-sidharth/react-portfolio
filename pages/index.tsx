@@ -102,7 +102,7 @@ export default function Home() {
                   <li> - React Three Fiber</li>
                 </ul>
                 </div>
-                <div className='flex justify-center pr-10'>
+                <div className='flex justify-center p-10'>
                 <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
                   <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>Live</button>
                   </a>
@@ -119,9 +119,9 @@ export default function Home() {
 
                <div className='bg-purple-100 p-7 rounded-xl border shadow-2xl shadow-purple-700 my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200  dark:shadow-pink-600'>
             <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-              <a href="https://exo-exo.up.railway.app/" target='_blank' rel="noreferrer">
+           
               <Image className='rounded-xl' width={400} height={215} src={pomodoro} alt='planets' />
-              </a>
+              
               <div className='p-6'>
               <h3 className='text-center text-gray-900 text-xl font-Amiko mb-2'>Pomodoro Inspired App</h3>
               <p className='text-center text-gray-700 text-base mb-4 font-Amiko'>Users can set time intervals to increase their productivity. More Functionality coming soon!</p>
@@ -136,7 +136,7 @@ export default function Home() {
                   <li> - TailwindCSS</li>
                 </ul>
               </div>
-              <div className='flex justify-center pr-10'>
+              <div className='flex justify-center pr-10 pt-16'>
                 <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>Live</button>
                 <a href="https://github.com/shymala-sidharth/pomodoro-app" target='_blank' rel="noreferrer">
                   <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>GitHub</button>
