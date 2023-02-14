@@ -49,7 +49,7 @@ export default function Home() {
           <div className = 'text-center'>
           <h2 className='text-5xl text-purple-700 font-semibold font-Amiko md:text-6xl sm:text-5xl dark:text-pink-500'>S H Y M A L A</h2>
           <h3 className='text-2xl py-5 text-purple-600 font-Amiko md:text-2xl dark:text-pink-300'>Full Stack Software Developer</h3>
-          <p className='text-lg p-5 text-gray-700 leading-loose font-Amiko md:text-lg md:leading-loose max-w-5xl mx-auto dark:text-pink-200'>I'm a software developer with a passion for the environment and a love for data. My unique background in Environmental Science and computer programming allows me to bring a fresh perspective to the tech world. I believe that technology has the power to make a real impact on our planet, and I strive to use my skills to create solutions that make a difference. When I'm not busy trying out new project ideas, you can find me hiking in nature, volunteering for environmental causes, or exploring new ways to live sustainably. 
+          <p className='text-lg p-5 text-gray-700 leading-loose font-Amiko md:text-lg md:leading-loose max-w-5xl mx-auto dark:text-pink-200'>I&apos:m a software developer with a passion for the environment and a love for data. My unique background in Environmental Science and computer programming allows me to bring a fresh perspective to the tech world. I believe that technology has the power to make a real impact on our planet, and I strive to use my skills to create solutions that make a difference. When I&apos:m not busy trying out new project ideas, you can find me hiking in nature, volunteering for environmental causes, or exploring new ways to live sustainably. 
             </p>
 
 
