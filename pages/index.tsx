@@ -10,6 +10,7 @@ import pomodoro from '/public/pomodoro2.png'
 import logo from '/public/logo.png'
 import { useState } from 'react'
 import portfolio from '/public/portfolio5.png'
+import spoon from '/public/spoon.png'
 
 
 export default function Home() {
@@ -83,7 +84,7 @@ export default function Home() {
             <h3 className='text-center text-5xl text-purple-700 font-semibold font-Amiko md:text-5xl md:pt-9 sm:text-5xl dark:text-pink-500' id='Projects'>P R O J E C T S</h3>
             
            
-         <div className='container px-5 py-5 mx-auto flex flex-wrap justify-center gap-10'>
+         <div className='container px-5 py-5 mx-auto flex flex-wrap flex-row justify-center gap-10'>
 
 
           <div className='bg-purple-100 p-7 rounded-xl border shadow-2xl shadow-purple-700 my-6 max-w-sm hover:shadow-xl transition ease-in-out hover:duration-200 hover:scale-105 duration-200 dark:shadow-pink-600'>
@@ -117,33 +118,7 @@ export default function Home() {
 
 
 
-               <div className='bg-purple-100 p-7 rounded-xl border shadow-2xl shadow-purple-700 my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200  dark:shadow-pink-600'>
-            <div className='relative overflow-hidden bg-no-repeat bg-cover'>
-           
-              <Image className='rounded-xl shadow-xl' width={400} height={215} src={pomodoro} alt='planets' />
-              
-              <div className='p-6'>
-              <h3 className='text-center text-gray-900 text-xl font-Amiko mb-2'>Pomodoro Inspired App</h3>
-              <p className='text-center text-gray-700 text-base mb-4 font-Amiko'>Users can set time intervals to increase their productivity. More Functionality coming soon!</p>
-              <ul className='text-center text-gray-900 font-extrabold text-base mb-4 font-Amiko'>
-                  <li> - React.js</li>
-
-                  <li> - JavaScript</li>
-
-                  
-                  <li> - Next.js</li>
-
-                  <li> - TailwindCSS</li>
-                </ul>
-              </div>
-              <div className='flex justify-center pr-10 '>
-                <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>Live</button>
-                <a href="https://github.com/shymala-sidharth/pomodoro-app" target='_blank' rel="noreferrer">
-                  <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>GitHub</button>
-                  </a>
-              </div>
-            </div>
-             </div>
+             
 
 
              <div className='bg-purple-100 p-7 rounded-xl border shadow-2xl shadow-purple-700 my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200  dark:shadow-pink-600'>
@@ -180,7 +155,71 @@ export default function Home() {
             </div>
              </div>
 
+             <div className='bg-purple-100 p-7 rounded-xl border shadow-2xl shadow-purple-700 my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200  dark:shadow-pink-600'>
+            <div className='relative overflow-hidden bg-no-repeat bg-cover'>
+              
+              <Image className='rounded-xl shadow-xl' width={400} height={215} src={spoon} alt='portfolio'  />
+              
+              <div className='p-6'>
+              <h3 className='text-center text-gray-900 text-xl font-Amiko mb-2 mt-14'>Spoonancular!</h3>
+              <p className='text-center text-gray-700 text-base mb-4 font-Amiko mt-4'>API Recipe search App to make meal planning easy! COMING SOON!</p>
+              <ul className='text-center text-gray-900 font-extrabold text-base mb-4 mt-10 font-Amiko'>
+                  <li> - React.js</li>
+
+                  <li> - TypeScript</li>
+
+                  <li> - API</li>
+
+                  <li> - Next.js</li>
+
+                  <li> - TailwindCSS</li>
+                </ul>
+              </div>
+              <div className='flex justify-center pr-10 pt-4'>
+              <a href="https://github.com/shymala-sidharth/recipe-app" target='_blank' rel="noreferrer">
+                <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>Live</button>
+                
+                </a>
+
+
+                <a href="https://github.com/shymala-sidharth/recipe-app" target='_blank' rel="noreferrer">
+                <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>GitHub</button>
+                </a>
+
+              </div>
+            </div>
              </div>
+
+             <div className='bg-purple-100 p-7 rounded-xl border shadow-2xl shadow-purple-700 my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200  dark:shadow-pink-600'>
+            <div className='relative overflow-hidden bg-no-repeat bg-cover'>
+           
+              <Image className='rounded-xl shadow-xl' width={400} height={215} src={pomodoro} alt='planets' />
+              
+              <div className='p-6'>
+              <h3 className='text-center text-gray-900 text-xl font-Amiko mb-2'>Pomodoro Inspired App</h3>
+              <p className='text-center text-gray-700 text-base mb-4 font-Amiko'>Users can set time intervals to increase their productivity. More Functionality coming soon!</p>
+              <ul className='text-center text-gray-900 font-extrabold text-base mb-4 font-Amiko'>
+                  <li> - React.js</li>
+
+                  <li> - JavaScript</li>
+
+                  
+                  <li> - Next.js</li>
+
+                  <li> - TailwindCSS</li>
+                </ul>
+              </div>
+              <div className='flex justify-center pr-10 '>
+                <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>Live</button>
+                <a href="https://github.com/shymala-sidharth/pomodoro-app" target='_blank' rel="noreferrer">
+                  <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>GitHub</button>
+                  </a>
+              </div>
+            </div>
+             </div>
+
+             </div>
+
         </section>
        
        
