@@ -6,7 +6,7 @@ import {MdEmail} from 'react-icons/md'
 import Image from 'next/image'
 import picture from '/public/—Pngtree—designer thinking line painting_6399125.png'
 import exo from '/public/exo9.png'
-import pomodoro from '/public/pomodoro.png'
+import pomodoro from '/public/pomodoro2.png'
 import logo from '/public/logo.png'
 import { useState } from 'react'
 import portfolio from '/public/portfolio5.png'
@@ -89,7 +89,7 @@ export default function Home() {
           <div className='bg-purple-100 p-7 rounded-xl border shadow-2xl shadow-purple-700 my-6 max-w-sm hover:shadow-xl transition ease-in-out hover:duration-200 hover:scale-105 duration-200 dark:shadow-pink-600'>
               <div className='relative overflow-hidden bg-no-repeat bg-cover'>
                 
-                <Image className='rounded-xl' width={400} height={215} src={exo} alt='planets' />
+                <Image className='rounded-xl shadow-xl' width={400} height={215} src={exo} alt='planets' />
                 
                 <div className='p-6'>
                 <h3 className='text-center text-gray-900 text-xl font-Amiko mb-2'>Exo Exo: Discover Planets Beyond our Solar System</h3>
@@ -120,7 +120,7 @@ export default function Home() {
                <div className='bg-purple-100 p-7 rounded-xl border shadow-2xl shadow-purple-700 my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200  dark:shadow-pink-600'>
             <div className='relative overflow-hidden bg-no-repeat bg-cover'>
            
-              <Image className='rounded-xl' width={400} height={215} src={pomodoro} alt='planets' />
+              <Image className='rounded-xl shadow-xl' width={400} height={215} src={pomodoro} alt='planets' />
               
               <div className='p-6'>
               <h3 className='text-center text-gray-900 text-xl font-Amiko mb-2'>Pomodoro Inspired App</h3>
