@@ -136,7 +136,7 @@ export default function Home() {
                   <li> - TailwindCSS</li>
                 </ul>
               </div>
-              <div className='flex justify-center pr-10 pt-16'>
+              <div className='flex justify-center pr-10 '>
                 <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>Live</button>
                 <a href="https://github.com/shymala-sidharth/pomodoro-app" target='_blank' rel="noreferrer">
                   <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>GitHub</button>
