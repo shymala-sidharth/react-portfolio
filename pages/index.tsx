@@ -176,10 +176,10 @@ export default function Home() {
                 </ul>
               </div>
               <div className='flex justify-center pr-10 pt-4'>
-              <a href="https://github.com/shymala-sidharth/recipe-app" target='_blank' rel="noreferrer">
+              {/* <a href="https://github.com/shymala-sidharth/recipe-app" target='_blank' rel="noreferrer">
                 <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>Live</button>
                 
-                </a>
+                </a> */}
 
 
                 <a href="https://github.com/shymala-sidharth/recipe-app" target='_blank' rel="noreferrer">
@@ -190,7 +190,7 @@ export default function Home() {
             </div>
              </div>
 
-             <div className='bg-purple-100 p-7 rounded-xl border shadow-2xl shadow-purple-700 my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200  dark:shadow-pink-600'>
+             {/* <div className='bg-purple-100 p-7 rounded-xl border shadow-2xl shadow-purple-700 my-6 max-w-sm hover:shadow-lg transition ease-in-out hover:duration-200 hover:scale-105 duration-200  dark:shadow-pink-600'>
             <div className='relative overflow-hidden bg-no-repeat bg-cover'>
            
               <Image className='rounded-xl shadow-xl' width={400} height={215} src={pomodoro} alt='planets' />
@@ -216,7 +216,7 @@ export default function Home() {
                   </a>
               </div>
             </div>
-             </div>
+             </div> */}
 
              </div>
 
