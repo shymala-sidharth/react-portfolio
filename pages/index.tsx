@@ -161,7 +161,7 @@ export default function Home() {
               <Image className='rounded-xl shadow-xl' width={400} height={215} src={spoon} alt='portfolio'  />
               
               <div className='p-6'>
-              <h3 className='text-center text-gray-900 text-xl font-Amiko mb-2 mt-14'>Spoonacular!</h3>
+              <h3 className='text-center text-gray-900 text-xl font-Amiko mb-2 mt-14'>Spoonancular!</h3>
               <p className='text-center text-gray-700 text-base mb-4 font-Amiko mt-4'>API Recipe search App to make meal planning easy! COMING SOON!</p>
               <ul className='text-center text-gray-900 font-extrabold text-base mb-4 mt-10 font-Amiko'>
                   <li> - React.js</li>
