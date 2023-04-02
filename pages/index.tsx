@@ -104,7 +104,7 @@ export default function Home() {
                 </ul>
                 </div>
                 <div className='flex justify-center p-10'>
-                <a href="https://react-three-fiber-3d-exoplanets-production-60dc.up.railway.app" target='_blank' rel="noreferrer">
+                <a href="https://react-three-fiber-3d-exoplanets-production-d58b.up.railway.app/" target='_blank' rel="noreferrer">
                   <button className='inline-block px-9 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>Live</button>
                   </a>
                   
@@ -182,7 +182,7 @@ export default function Home() {
                 </a> */}
 
 
-                <a href="https://github.com/shymala-sidharth/recipe-app" target='_blank' rel="noreferrer">
+                <a href="https://github.com/shymala-sidharth/Recipe-App" target='_blank' rel="noreferrer">
                 <button className='inline-block px-6 py-2.5 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xl font-Amiko rounded ml-8'>GitHub</button>
                 </a>
 
